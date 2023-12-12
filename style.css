@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  background: rgb(100, 85, 85);
+  display: flex;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.btn {
+  padding: 15px;
+  border: none;
+  color: yellow;
+  font-weight: bold;
+  background: rgb(1, 74, 1);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.cc-btn{
+  padding: 15px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background: rgb(214, 6, 6);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.up-btn{
+  padding: 15px;
+  border: none;
+  color: yellow;
+  font-weight: bold;
+  background: rgb(68, 238, 96);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.ma-btn{
+  padding: 15px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background: rgb(238, 210, 51);
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background: rgb(1, 74, 1);
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}
+.cc-btn:hover {
+  background: rgb(214, 6, 6);
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}
+.up-btn:hover {
+  background: rgb(68, 238, 96);
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}
+.ma-btn:hover {
+  background: rgb(238, 210, 51);
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}
+.card {
+  position: fixed;
+  display: flex;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgb(17, 137, 61);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.coca-cola{
+  position: fixed;
+  display: flex;
+  top: 10px;
+  right: 300px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgb(231, 39, 39);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.up{
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  left: 20px;
+  margin-bottom: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgb(64, 180, 18);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.maaza{
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  right: 300px;
+  margin-bottom: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgb(238, 216, 20);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.cc-logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.up-logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.ma-logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.card:hover .logo {
+  scale: 0;
+}
+.coca-cola:hover .cc-logo{
+  scale: 0;
+}
+.up:hover .up-logo{
+  scale: 0;
+}
+.maaza:hover .ma-logo{
+  scale: 0;
+}
+.card:hover {
+  border-radius: 15px;
+  width: 450px;
+  height: 280px;
+}
+.coca-cola:hover {
+  border-radius: 15px;
+  width: 450px;
+  height: 280px;
+}
+.up:hover {
+  border-radius: 15px;
+  width: 450px;
+  height: 280px;
+}
+.maaza:hover {
+  border-radius: 15px;
+  width: 450px;
+  height: 280px;
+}
+.text-section {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 180px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.cc-text-section{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 180px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.up-text-section{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 180px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.ma-text-section{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 180px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover .text-section {
+  opacity: 1;
+}
+.coca-cola:hover .cc-text-section{
+  opacity: 1;
+}
+.up:hover .up-text-section{
+  opacity: 1;
+}
+.maaza:hover .ma-text-section{
+  opacity: 1;
+}
+.bottle {
+  position: absolute;
+  top: -20px;
+  right: -100px;
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+  opacity: 0;
+  rotate: 15deg;
+  transition: all 0.3s ease-in-out;
+}
+.cc-bottle{
+  position: absolute;
+  top: -35px;
+  right: -60px;
+  left: 100px;
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  opacity: 0;
+  rotate: 15deg;
+  transition: all 0.3s ease-in-out;
+}
+.up-bottle{
+  position: absolute;
+  top: -20px;
+  right: 100px;
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  opacity: 0;
+  rotate: 15deg;
+  transition: all 0.3s ease-in-out;
+}
+.ma-bottle{
+  position: absolute;
+  top: -25px;
+  right: 100px;
+  width: 105px;
+  height: auto;
+  object-fit: cover;
+  opacity: 0;
+  rotate: 15deg;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover .bottle {
+  opacity: 1;
+}
+.coca-cola:hover .cc-bottle {
+  opacity: 1;
+}
+.up:hover .up-bottle {
+  opacity: 1;
+}
+.maaza:hover .ma-bottle {
+  opacity: 1;
+}
